@@ -14,6 +14,18 @@
 
 # Razões trigonométricas no triângulo retângulo
 
+
 - Teorema de Pitágoras:
 
 ![Screenshot from 2023-03-09 14-24-38](https://user-images.githubusercontent.com/89158806/224106722-00183079-5c39-4cf3-8011-391ec290674e.png)
+
+
+- Razões trigonométricas:
+
+![20230309_145216](https://user-images.githubusercontent.com/89158806/224113913-41bac86a-f34f-4916-8328-cc7eae597b48.jpg)
+
+
+- Seno x Cosseno x Tangente x Cotangente:
+
+![Screenshot from 2023-03-09 14-57-12](https://user-images.githubusercontent.com/89158806/224114714-b1ecff7f-0374-40dc-a4d0-80841384bad7.png)
+
