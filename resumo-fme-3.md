@@ -29,3 +29,10 @@
 
 ![Screenshot from 2023-03-09 14-57-12](https://user-images.githubusercontent.com/89158806/224114714-b1ecff7f-0374-40dc-a4d0-80841384bad7.png)
 
+- Relações entre seno, cosseno, tangente e cotangente:
+
+![Screenshot from 2023-03-09 16-44-02](https://user-images.githubusercontent.com/89158806/224137051-4a726c18-1abb-4406-b236-ab489302702e.png)
+
+![Screenshot from 2023-03-09 16-44-22](https://user-images.githubusercontent.com/89158806/224137058-2d17bf35-9a18-4610-b56b-42ae8e97da1c.png)
+
+![Screenshot from 2023-03-09 16-44-36](https://user-images.githubusercontent.com/89158806/224137063-e12fe2f6-5db1-4a30-a9d1-0bef94aa70af.png)
