@@ -1,4 +1,4 @@
-# horizonte-artificial-py
+# artificial-horizon-py
 Biblioteca que cria horizonte artificial para projetos em Python.
 
 Passos:
