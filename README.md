@@ -28,4 +28,4 @@ Será também possível, no momento da instância do objeto, passar um objeto "c
 
 [Screencast from 2023-03-10 11-31-47.webm](https://user-images.githubusercontent.com/89158806/224342671-4f923eca-90cc-48aa-9bd3-333cb903c19c.webm)
 
-*O horizonte foi utilizado em um projeto de robótica privado que monitora sensores de um arduino e utiliza C++.*
+*O horizonte foi utilizado em um projeto de robótica privado que monitora sensores de um arduino pela porta serial e utiliza C++.*
