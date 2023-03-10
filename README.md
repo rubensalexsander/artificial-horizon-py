@@ -7,14 +7,31 @@ Passos:
 - Descrever passos do projeto neste repositório. ✅
 
 # Idéia básica da biblioteca:
-> horizon = ArtificialHorizon(vortex, size) #Instância do objeto
+- Instanciar o objeto:
 
-No "loop de jogo":
+> horizon = ArtificialHorizon(vortex, size) 
+
+*(vortex:Ponto central do instrumento, size: Tamanho do instrumento)*
+
+*Atributo tk_canvas: Recebe um objeto do tipo "Canvas", da biblioteca Tkinter, em que escreve o horizonte automaticamente quando o método "horizon.update()" é chamado.*
+
+*Atributo pygame_display: Recebe um objeto do tipo "pygame.display", da biblioteca Pygame, em que escreve o horizonte automaticamente quando o método "horizon.update()" é chamado.*
+
+
+- Atualizar no "loop de jogo":
 > result = horizon.update(angle_value)
 
-"result" será uma array com diversos objetos "line" com seus pontos já definidos e poderão ser, facilmente escritos fazendo um loop for.
+"result" será uma array que contém outras arrays que são as linhas que devem ser desenhadas na tela fazendo um loop for.
 
-Será também possível, no momento da instância do objeto, passar um objeto "canvas" (se estiver usando Tkinter) ou "pygame.display" (se estiver usando PyGame). Dessa forma o horizonte artificial será escrito automaticamente no objeto repassado (não será necessário iterar a lista "lines").
+*result[0] -> [ponto1, ponto2]*
+
+Uma linha pode ser definida por 2 pontos.
+
+*result[0][0] -> [10, 20] (Valores hipotéticos de um dos pontos)*
+
+Caso já tenha passado o atributo tk_canvas ou pygame_display, não será nessessário armazenar as linhas na variável "result":
+
+>horizont.update(angle_value)
 
 # Imagens de referância para o modelo do projeto (serão reproduzidas apenas as informações de giroscópio):
 
