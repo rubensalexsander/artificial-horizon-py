@@ -37,12 +37,22 @@ Caso já tenha passado o atributo tk_canvas ou pygame_display, não será nesses
 
 ![ha1](https://user-images.githubusercontent.com/89158806/224062091-6abca9c8-db19-4894-a94b-1f9382140de4.png)
 
-![ha2](https://user-images.githubusercontent.com/89158806/224064546-fdbdb779-8a98-44c8-aecd-e061db199c48.png)
-
 ![ha3](https://user-images.githubusercontent.com/89158806/224063969-9dd2bca7-63a0-440e-af16-165928e2968f.png)
 
 # Resultados:
 
+- Primeira versão:
+
 [Screencast from 2023-03-10 11-31-47.webm](https://user-images.githubusercontent.com/89158806/224342671-4f923eca-90cc-48aa-9bd3-333cb903c19c.webm)
 
-*O horizonte foi utilizado em um projeto de robótica privado que monitora sensores de um arduino pela porta serial e utiliza C++.*
+- Segunda versão: 
+
+*Adicionado blur na atualização do ângulo que deixa a atualização mais suave.*
+
+*Adicionado text que descreve o ângulo do objeto.*
+
+*Outras modificações*
+
+[Screencast from 2023-03-10 23-19-02.webm](https://user-images.githubusercontent.com/89158806/224460282-9708025c-ab3c-4ff3-a1fc-94791316bd6e.webm)
+
+*O horizonte no resultado foi utilizado em um projeto de robótica privado que monitora sensores de um arduino pela porta serial e utiliza C++.*
