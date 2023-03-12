@@ -1,3 +1,4 @@
+
 # artificial-horizon-py
 Biblioteca que cria horizonte artificial para projetos em Python.
 
@@ -9,7 +10,7 @@ Passos:
 # Idéia básica da biblioteca:
 - Instanciar o objeto:
 
-> horizon = ArtificialHorizon(vortex, size) 
+> horizon = ArtificialHorizon(vortex, size)
 
 *(vortex:Ponto central do instrumento, size: Tamanho do instrumento)*
 
@@ -19,19 +20,22 @@ Passos:
 
 
 - Atualizar no "loop de jogo":
+
 > result = horizon.update(angle_value)
 
 "result" será uma array que contém outras arrays que são as linhas que devem ser desenhadas na tela fazendo um loop for.
 
-*result[0] -> [ponto1, ponto2]*
+    result[0] -> [ponto1, ponto2]
 
 Uma linha pode ser definida por 2 pontos.
 
-*result[0][0] -> [10, 20] (Valores hipotéticos de um dos pontos)*
+    
+
+    result[0][0] -> [10, 20] (Valores hipotéticos de um dos pontos)
 
 Caso já tenha passado o atributo tk_canvas ou pygame_display, não será nessessário armazenar as linhas na variável "result":
 
->horizont.update(angle_value)
+> horizon.update(angle_value)
 
 # Imagens de referância para o modelo do projeto (serão reproduzidas apenas as informações de giroscópio):
 
