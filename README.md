@@ -60,3 +60,11 @@ Caso já tenha passado o atributo tk_canvas ou pygame_display, não será nesses
 [Screencast from 2023-03-10 23-19-02.webm](https://user-images.githubusercontent.com/89158806/224460282-9708025c-ab3c-4ff3-a1fc-94791316bd6e.webm)
 
 *O horizonte no resultado foi utilizado em um projeto de robótica privado que monitora sensores de um arduino pela porta serial e utiliza C++.*
+
+- Terceira versão:
+
+*Adicionado eixo x.*
+
+[Screencast from 2023-03-13 18-05-19.webm](https://user-images.githubusercontent.com/89158806/224832443-1b812237-da87-4367-8e88-acf45553ff89.webm)
+
+
