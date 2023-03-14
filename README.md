@@ -21,19 +21,19 @@ Passos:
 
 - Atualizar no "loop de jogo":
 
-> result = horizon.update(angle_value)
+> horizon_lines = horizon.update(angle_value)
 
-"result" será uma array que contém outras arrays que são as linhas que devem ser desenhadas na tela fazendo um loop for.
+"horizon_lines" será uma array que contém outras arrays que são linhas que devem ser desenhadas na tela fazendo um loop for.
 
-    result[0] -> [ponto1, ponto2]
+    horizon_lines[0] -> [ponto1, ponto2]
 
 Uma linha pode ser definida por 2 pontos.
 
     
 
-    result[0][0] -> [10, 20] (Valores hipotéticos de um dos pontos)
+    horizon_lines[0][0] -> [10, 20] (Valores hipotéticos de um dos pontos da linha)
 
-Caso já tenha passado o atributo tk_canvas ou pygame_display, não será nessessário armazenar as linhas na variável "result":
+Caso já tenha passado o atributo tk_canvas ou pygame_display, não será nessessário armazenar as linhas na variável "horizon_lines":
 
 > horizon.update(angle_value)
 
