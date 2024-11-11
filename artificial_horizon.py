@@ -3,10 +3,10 @@ from math import sin, cos
 PI = 3.14159265
 
 def radius_to_graus(radius):
-      return (radius*180)/PI
+    return (radius*180)/PI
 
 def graus_to_radius(graus):
-  return graus * (PI/180)
+    return graus * (PI/180)
 
 def get_p(angle, vortex, h):
     a = sin(angle)*h
@@ -20,6 +20,7 @@ class ArtificialHorizon:
     def __init__(self, vortex, size, angle_x=0, angle_y=0, angle_z=0, tk_canvas=None, pygame_display=None):
         self.vortex = vortex
         self.size = size
+        self.color = 'green'
         
         self.meta_angle_x = angle_x
         self.meta_angle_y = angle_y
@@ -65,9 +66,9 @@ class ArtificialHorizon:
         return lines
 
     def __create_tk_lines(self):
-        self.tk_lines = [self.tk_canvas.create_line(0,0,0,0,fill='green') for i in range(len(self.get_lines()))]
-        self.tk_text_angle_x = self.tk_canvas.create_text(self.vortex[0],self.vortex[1]+int(self.size*1.1),fill='green')
-        self.tk_text_angle_y = self.tk_canvas.create_text(self.vortex[0]+int(self.size*1.1),self.vortex[1],fill='green')
+        self.tk_lines = [self.tk_canvas.create_line(0,0,0,0,fill=self.color) for i in range(len(self.get_lines()))]
+        self.tk_text_angle_x = self.tk_canvas.create_text(self.vortex[0],self.vortex[1]+int(self.size*1.1),fill=self.color)
+        self.tk_text_angle_y = self.tk_canvas.create_text(self.vortex[0]+int(self.size*1.1),self.vortex[1],fill=self.color)
     
     def __update_artificial_horizon_tk(self, lines):
             for i in lines:
@@ -78,7 +79,7 @@ class ArtificialHorizon:
     
     def __update_artificial_horizon_pygame(self, lines):
         for i in lines:
-            self.pygame.draw.line(self.pygame_display, 'green', i[0], i[1], 1)
+            self.pygame.draw.line(self.pygame_display, self.color, i[0], i[1], 1)
         self.pygame.display.flip()
     
     def update(self, x=None,y=None,z=None):
